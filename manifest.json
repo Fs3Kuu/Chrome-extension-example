@@ -10,6 +10,12 @@
 		"128": "icon.png"
 	},
 
+	"incognito": "split",
+
+	"chrome_url_overrides": {
+		"newtab": "blank.html"
+	},
+
 	"content_scripts": [ {
 		"js": [ "jquery-1.8.3.min.js", "example.js" ],
 		"matches": [ "http://*/*", "https://*/*"]
