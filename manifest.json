@@ -10,8 +10,11 @@
 		"128": "icon.png"
 	},
 
-	"content_scripts": [ {
+	"chrome_url_overrides" : {
+		"pageToOverride": "blank.html"
+	},
 
+	"content_scripts": [ {
 		"js": [ "jquery-1.8.3.min.js", "example.js" ],
 		"matches": [ "http://*/*", "https://*/*"]
 	} ]
