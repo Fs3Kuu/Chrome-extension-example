@@ -1,5 +1,5 @@
 
 $( document ).ready( function() { 
 	
-	alert( "Test.." );
+	console.log( "Chrome extension example" );
 } )
