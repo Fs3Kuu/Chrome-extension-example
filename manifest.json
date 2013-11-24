@@ -10,9 +10,12 @@
 		"128": "icon.png"
 	},
 
+	// Disable the "web_accessible_resources" error
+	//"web_accessible_resources": [ "jquery-2.0.3.min.map" ],
+
 	"content_scripts": [ {
 
-		"js": [ "jquery-2.0.3.min.js", "example.js" ],
+		"js": [ "jquery-1.8.3.min.js", "example.js" ],
 		"matches": [ "http://*/*", "https://*/*"]
-	}]
+	} ]
 }
