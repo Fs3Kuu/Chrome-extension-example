@@ -1,0 +1,14 @@
+{
+  "name": "Chrome Extension Example",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Show a dialog when the page is done loading",
+  "browser_action": {
+    "name": "Example",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [ {
+    "js": [ "jquery-2.0.3.min.js", "example.js" ],
+    "matches": [ "http://*/*", "https://*/*"]
+  }]
+}
